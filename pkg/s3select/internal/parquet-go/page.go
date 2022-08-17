@@ -24,7 +24,7 @@ import (
 	"math"
 	"strings"
 
-	"git.apache.org/thrift.git/lib/go/thrift"
+	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
 )
 
@@ -79,7 +79,7 @@ func getMaxRepLevel(nameIndexMap map[string]int, schemaElements []*parquet.Schem
 
 func readPageHeader(reader *thrift.TBufferedTransport) (*parquet.PageHeader, error) {
 	pageHeader := parquet.NewPageHeader()
-	if err := pageHeader.Read(thrift.NewTCompactProtocol(reader)); err != nil {
+	if err := pageHeader.Read(context.TODO(), thrift.NewTCompactProtocol(reader)); err != nil {
 		return nil, err
 	}
 

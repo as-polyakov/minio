@@ -17,11 +17,12 @@
 package parquet
 
 import (
+	"context"
 	"encoding/binary"
 	"encoding/json"
 	"io"
 
-	"git.apache.org/thrift.git/lib/go/thrift"
+	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
 )
@@ -62,7 +63,7 @@ func fileMetadata(getReaderFunc GetReaderFunc) (*parquet.FileMetaData, error) {
 
 	pf := thrift.NewTCompactProtocolFactory()
 	protocol := pf.GetProtocol(thrift.NewStreamTransportR(rc))
-	err = fileMeta.Read(protocol)
+	err = fileMeta.Read(context.TODO(), protocol)
 	if err != nil {
 		return nil, err
 	}
