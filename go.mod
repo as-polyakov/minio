@@ -8,7 +8,7 @@ replace github.com/spf13/cobra => github.com/spf13/cobra v1.5.0
 
 replace git.apache.org/thrift.git/lib/go/thrift => github.com/apache/thrift/lib/go/thrift v0.14.0
 
-replace github.com/minio/minio => github.com/as-polyakov/minio v0.1.0-cvefix.1
+replace github.com/minio/minio => github.com/as-polyakov/minio v0.1.0-cvefix.2
 
 require (
 	cloud.google.com/go v0.103.0
