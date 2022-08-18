@@ -8,6 +8,8 @@ replace github.com/spf13/cobra => github.com/spf13/cobra v1.5.0
 
 replace git.apache.org/thrift.git/lib/go/thrift => github.com/apache/thrift/lib/go/thrift v0.14.0
 
+replace github.com/minio/minio => github.com/as-polyakov/minio v0.1.0-cvefix.1
+
 require (
 	cloud.google.com/go v0.103.0
 	cloud.google.com/go/storage v1.23.0
@@ -55,6 +57,7 @@ require (
 	github.com/miekg/dns v1.1.41
 	github.com/minio/cli v1.22.0
 	github.com/minio/highwayhash v1.0.2
+	github.com/minio/minio v0.0.0-20220817155032-67cf15d03665
 	github.com/minio/minio-go/v7 v7.0.7-0.20210105224719-8dddba43079f
 	github.com/minio/selfupdate v0.3.1
 	github.com/minio/sha256-simd v0.1.1
