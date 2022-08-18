@@ -41,10 +41,10 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/gorilla/mux"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/handlers"
-	"github.com/minio/minio/pkg/madmin"
+	xhttp "github.com/as-polyakov/minio/cmd/http"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/pkg/handlers"
+	"github.com/as-polyakov/minio/pkg/madmin"
 	"golang.org/x/net/http2"
 )
 

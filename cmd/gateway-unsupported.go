@@ -20,15 +20,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/minio/minio/cmd/logger"
+	"github.com/as-polyakov/minio/cmd/logger"
 
 	"github.com/minio/minio-go/v7/pkg/tags"
-	bucketsse "github.com/minio/minio/pkg/bucket/encryption"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/versioning"
+	bucketsse "github.com/as-polyakov/minio/pkg/bucket/encryption"
+	"github.com/as-polyakov/minio/pkg/bucket/lifecycle"
+	"github.com/as-polyakov/minio/pkg/bucket/policy"
+	"github.com/as-polyakov/minio/pkg/bucket/versioning"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/as-polyakov/minio/pkg/madmin"
 )
 
 // GatewayUnsupported list of unsupported call stubs for gateway.

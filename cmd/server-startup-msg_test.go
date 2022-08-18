@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/as-polyakov/minio/pkg/madmin"
 )
 
 // Tests if we generate storage info.

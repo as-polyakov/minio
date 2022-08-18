@@ -29,9 +29,9 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 	"github.com/klauspost/compress/zstd"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/hash"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/pkg/bucket/lifecycle"
+	"github.com/as-polyakov/minio/pkg/hash"
 	"github.com/tinylib/msgp/msgp"
 )
 

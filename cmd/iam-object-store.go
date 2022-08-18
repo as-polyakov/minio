@@ -29,10 +29,10 @@ import (
 
 	jwtgo "github.com/golang-jwt/jwt"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/pkg/auth"
+	iampolicy "github.com/as-polyakov/minio/pkg/iam/policy"
+	"github.com/as-polyakov/minio/pkg/madmin"
 )
 
 // IAMObjectStore implements IAMStorageAPI
@@ -460,7 +460,7 @@ func (iamOS *IAMObjectStore) loadAll(ctx context.Context, sys *IAMSys) error {
 	defer iamOS.unlock()
 
 	// Merge the new reloaded entries into global map.
-	// See issue https://github.com/minio/minio/issues/9651
+	// See issue https://github.com/as-polyakov/minio/issues/9651
 	// where the present list of entries on disk are not yet
 	// latest, there is a small window where this can make
 	// valid users invalid.

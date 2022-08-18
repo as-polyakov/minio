@@ -37,7 +37,7 @@ import (
 
 	"github.com/minio/minio-go/v7/pkg/s3utils"
 	"github.com/minio/minio-go/v7/pkg/set"
-	xhttp "github.com/minio/minio/cmd/http"
+	xhttp "github.com/as-polyakov/minio/cmd/http"
 	sha256 "github.com/minio/sha256-simd"
 )
 

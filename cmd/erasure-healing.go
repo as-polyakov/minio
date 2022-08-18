@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/pkg/madmin"
+	"github.com/as-polyakov/minio/pkg/sync/errgroup"
 )
 
 // Heals a bucket if it doesn't exist on one of the disks, additionally

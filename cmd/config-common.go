@@ -21,7 +21,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/minio/minio/pkg/hash"
+	"github.com/as-polyakov/minio/pkg/hash"
 )
 
 var errConfigNotFound = errors.New("config file not found")

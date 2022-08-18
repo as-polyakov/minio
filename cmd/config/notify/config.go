@@ -17,7 +17,7 @@
 package notify
 
 import (
-	"github.com/minio/minio/pkg/event/target"
+	"github.com/as-polyakov/minio/pkg/event/target"
 )
 
 // Config - notification target configuration structure, holds

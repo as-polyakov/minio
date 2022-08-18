@@ -25,10 +25,10 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/net"
+	"github.com/as-polyakov/minio/pkg/disk"
+	"github.com/as-polyakov/minio/pkg/net"
 
-	smart "github.com/minio/minio/pkg/smart"
+	smart "github.com/as-polyakov/minio/pkg/smart"
 	"github.com/shirou/gopsutil/cpu"
 	diskhw "github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/host"

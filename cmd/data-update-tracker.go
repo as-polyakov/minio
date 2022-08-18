@@ -31,11 +31,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/console"
-	"github.com/minio/minio/pkg/env"
+	"github.com/as-polyakov/minio/cmd/config"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/pkg/color"
+	"github.com/as-polyakov/minio/pkg/console"
+	"github.com/as-polyakov/minio/pkg/env"
 	"github.com/willf/bloom"
 )
 

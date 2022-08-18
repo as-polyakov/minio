@@ -28,8 +28,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/logger/message/log"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/cmd/logger/message/log"
 )
 
 type testLoggerI interface {

@@ -27,10 +27,10 @@ import (
 	"sync"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/as-polyakov/minio/cmd/config/storageclass"
+	"github.com/as-polyakov/minio/cmd/logger"
+	"github.com/as-polyakov/minio/pkg/color"
+	"github.com/as-polyakov/minio/pkg/sync/errgroup"
 	sha256 "github.com/minio/sha256-simd"
 )
 

@@ -32,7 +32,7 @@ import (
 
 	"github.com/minio/highwayhash"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/logger/message/log"
+	"github.com/as-polyakov/minio/cmd/logger/message/log"
 )
 
 var (

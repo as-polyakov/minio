@@ -24,24 +24,24 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/pkg/bucket/bandwidth"
+	"github.com/as-polyakov/minio/pkg/bucket/bandwidth"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	"github.com/minio/minio/cmd/config/dns"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/auth"
+	"github.com/as-polyakov/minio/cmd/config/cache"
+	"github.com/as-polyakov/minio/cmd/config/compress"
+	"github.com/as-polyakov/minio/cmd/config/dns"
+	xldap "github.com/as-polyakov/minio/cmd/config/identity/ldap"
+	"github.com/as-polyakov/minio/cmd/config/identity/openid"
+	"github.com/as-polyakov/minio/cmd/config/policy/opa"
+	"github.com/as-polyakov/minio/cmd/config/storageclass"
+	"github.com/as-polyakov/minio/cmd/crypto"
+	xhttp "github.com/as-polyakov/minio/cmd/http"
+	"github.com/as-polyakov/minio/pkg/auth"
 	etcd "go.etcd.io/etcd/client/v3"
 
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/pubsub"
+	"github.com/as-polyakov/minio/pkg/certs"
+	"github.com/as-polyakov/minio/pkg/event"
+	"github.com/as-polyakov/minio/pkg/pubsub"
 )
 
 // minio configuration related constants.

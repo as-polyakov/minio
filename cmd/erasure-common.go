@@ -22,7 +22,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/as-polyakov/minio/pkg/sync/errgroup"
 )
 
 func (er erasureObjects) getLoadBalancedLocalDisks() (newDisks []StorageAPI) {

@@ -20,7 +20,7 @@ package config
 import (
 	"testing"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/as-polyakov/minio/pkg/madmin"
 )
 
 func TestKVFields(t *testing.T) {

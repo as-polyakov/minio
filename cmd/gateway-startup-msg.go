@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/minio/minio/pkg/color"
+	"github.com/as-polyakov/minio/pkg/color"
 )
 
 // Prints the formatted startup message.
